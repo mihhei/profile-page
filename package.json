@@ -1,0 +1,24 @@
+{
+  "name": "coursework_frontend_2020",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "homepage": "https://mihhei.github.io/CourseWork_FrontEnd_2020",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihhei/CourseWork_FrontEnd_2020.git"
+  },
+  "author": "mihhei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mihhei/CourseWork_FrontEnd_2020/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
